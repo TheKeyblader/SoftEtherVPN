@@ -30,7 +30,7 @@
 		selectedId = $bindable(),
 		loading = false,
 		rowsPerPage = 15,
-		searchable = true,
+		searchable = false,
 		class: className,
 		tableClass = 'table-pin-rows',
 		empty

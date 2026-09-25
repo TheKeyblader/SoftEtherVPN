@@ -80,7 +80,9 @@ export const hubKeys = {
 	/** `GetHubMsg` */
 	message: (name: string) => [...hubDetail(name), 'message'] as const,
 	/** `GetHubAdminOptions` */
-	admin: (name: string) => [...hubDetail(name), 'admin'] as const
+	admin: (name: string) => [...hubDetail(name), 'admin'] as const,
+	/** `VpnRpcEnumSession` */
+	session: (name: string) => [...hubDetail(name), 'session'] as const
 };
 
 const ipsec = ['ipsec'] as const;

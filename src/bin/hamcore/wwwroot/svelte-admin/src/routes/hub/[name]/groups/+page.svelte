@@ -70,7 +70,6 @@
 			bind:selectedKey
 			loading={query.isFetching && query.data.GroupList.length === 0}
 			rowsPerPage={15}
-			searchable
 			tableClass="table-pin-rows"
 			onrowdblclick={(group) => goto(groupHref(group.Name_str))}>
 			{#snippet empty()}

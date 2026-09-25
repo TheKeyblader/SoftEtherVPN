@@ -218,7 +218,7 @@
 					</Fieldset>
 				</div>
 			</fieldset>
-			<div class="my-4 alert alert-soft alert-warning">
+			<div class="my-4 alert alert-warning">
 				<TriangleAlertIcon size={18} />
 				<p>{m.D_SM_LOG__STATIC3()}</p>
 			</div>
